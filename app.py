@@ -2,6 +2,7 @@ import streamlit as st
 import json
 from Classifier import KNearestNeighbours
 from operator import itemgetter
+from PIL import Image
 
 # Load data and movies list from corresponding JSON files
 with open(r'data.json', 'r+', encoding='utf-8') as f:
@@ -29,12 +30,12 @@ if __name__ == '__main__':
     genres = ['Action', 'Adventure', 'Animation', 'Biography', 'Comedy', 'Crime', 'Documentary', 'Drama', 'Family',
               'Fantasy', 'Film-Noir', 'Game-Show', 'History', 'Horror', 'Music', 'Musical', 'Mystery', 'News',
               'Reality-TV', 'Romance', 'Sci-Fi', 'Short', 'Sport', 'Thriller', 'War', 'Western']
-    from PIL import Image
+   
     image = Image.open('cinema.jpg')
 
-    st.image(image, caption='Sunrise by the mountains')
+    st.image(image, caption='Sit back and relax!')
     movies = [title[0] for title in movie_titles]
-    st.header('Movie Recommendation System') 
+    st.header('StreamWhiz') 
     apps = ['--Select--', 'Movie based', 'Genres based']   
     app_options = st.selectbox('Select application:', apps)
     
