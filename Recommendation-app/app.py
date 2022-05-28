@@ -29,10 +29,14 @@ if __name__ == '__main__':
     genres = ['Action', 'Adventure', 'Animation', 'Biography', 'Comedy', 'Crime', 'Documentary', 'Drama', 'Family',
               'Fantasy', 'Film-Noir', 'Game-Show', 'History', 'Horror', 'Music', 'Musical', 'Mystery', 'News',
               'Reality-TV', 'Romance', 'Sci-Fi', 'Short', 'Sport', 'Thriller', 'War', 'Western']
+    from PIL import Image
+    image = Image.open('cinema.jpg')
+
+    st.image(image, caption='Just sit and relax!')
 
     movies = [title[0] for title in movie_titles]
-    st.header('Movie Recommendation System') 
-    apps = ['--Select--', 'Movie based', 'Genres based']   
+    st.header('StreamWhiz') 
+    apps = ['Select your choice', 'Movie based', 'Genres based']   
     app_options = st.selectbox('Select application:', apps)
     
     if app_options == 'Movie based':
