@@ -2,9 +2,9 @@
 <h2 align="center">A Movie Recommendation System</h2>
 
 <p align="center">
- <!--<a target="_blank" href="https://share.streamlit.io/yuktika089/practise2/main/movierec_app.py">Link to the App</a>-->
+ 
     ·
- <a target="_blank" href="#">Video Demo</a>
+ <a target="_blank" href="https://www.youtube.com/watch?v=cyso2IBN7VY&ab_channel=SaloniDwivedi">Video Demo</a>
 </p>
     
 <!-- TABLE OF CONTENTS -->
