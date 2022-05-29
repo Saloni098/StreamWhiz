@@ -1,12 +1,9 @@
 <h1 align="center">StreamWhiz</h1>
 <h2 align="center">A Movie Recommendation System</h2>
 
-<p align="center">
- 
-    ·
+
  <a target="_blank" href="https://www.youtube.com/watch?v=cyso2IBN7VY&ab_channel=SaloniDwivedi">Video Demo</a>
-</p>
-    
+ 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
