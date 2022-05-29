@@ -107,52 +107,53 @@ streamlit run app.py
 
 ### Working
 
-- After you run the above command, you will be redirected to your browser and you will the see the following:
+* After you run the above command, you will be redirected to your browser and you will the see the following:
 <img src="Images/landing.png" alt="Landing page" width="700"/>
-- You will see an option to select the application
+
+* You will see an option to select the application
 
 <img src="Images/options.png" alt="Selecting Application" width="700"/>
 
-- User can select the mode of recommendation as Movie-based or Genre-based by clicking on the down arrow for 'Select Application'.
+* User can select the mode of recommendation as Movie-based or Genre-based by clicking on the down arrow for 'Select Application'.
 
 <img src="Images/both-options.png" alt="Selecting Application" width="700"/>
 
-#### Movie Based
-    - If Movie-based application is selcted, then user needs to enter a movie similar to which the user will get the recommendations.
+#### Movie Based 
+
+* If Movie-based application is selcted, then user needs to enter a movie similar to which the user will get the recommendations.
 
 <img src="Images/movie-based.png" alt="Movie-based - Entering a Movie" width="700"/>
 
-    - There are tons of options of movies of the user to choose from by clicking on the down arrow.
+* There are tons of options of movies of the user to choose from by clicking on the down arrow.
 
 <img src="Images/movie-list.png" alt="Movie Options" width="700"/>
 
-    - Then, for the selected movie, recommendations will be provided. The default number of recommendations is set at 5, but you may increase or decrease the number of recommendations as per your requirement.
+* Then, for the selected movie, recommendations will be provided. The default number of recommendations is set at 5, but you may increase or decrease the number of recommendations as per your requirement.
 
 <img src="Images/avatar.png" alt="Recommendations for Movie-based" width="700"/>
 
-    - The recommendations provided also enables you to check it's overview and it's trailer by clicking on the Movie you choose from the recommendations and you will be directed to its IMDB page. Here, I clicked on Avatar : 
+* The recommendations provided also enables you to check it's overview and it's trailer by clicking on the Movie you choose from the recommendations and you will be directed to its IMDB page. Here, I clicked on Avatar : 
 
 <img src="Images/imdb-avatar.png" alt="IMDB page of the Recommended Movie" width="700"/>
 
 #### Genre Based
 
-      - If Genre-based application is selected, then the user needs to select either one or more genres from the options provided.
+* If Genre-based application is selected, then the user needs to select either one or more genres from the options provided.
 
 <img src="Images/genre-based.png" alt="Selecting Genres" width="700"/>
-      
-      - Then you may adjust the IMDB score according to your requirement for the recommendations. Here as well, you may increase or decrease the number of recommendations you require.
+
+* Then you may adjust the IMDB score according to your requirement for the recommendations. Here as well, you may increase or decrease the number of recommendations you require.
 
 <img src="Images/action.png" alt="Adjusting IMDB Score" width="700"/>
 
-      - You can also increase the number of recommendations :
+* You can also increase the number of recommendations :
 
 <img src="Images/increment.png" alt="IMDB page of the Recommended Movie" width="700"/>
     
 #### Additional Features
-     
-      - The features to be added are-
-        * A login page which requires the user to make an account and then visit the site.
-        * A favourites cart in which you can keep your favourite movies and revisit them when required.
+  * The features to be added are-
+    * A login page which requires the user to make an account and then visit the site.
+    * A favourites cart in which you can keep your favourite movies and revisit them when required.
      
 
 
