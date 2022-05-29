@@ -108,47 +108,45 @@ streamlit run app.py
 ### Working
 
 - After you run the above command, you will be redirected to your browser and you will the see the following:
-<img src="Images/pg1.png" alt="First look of the Web App" width="700"/>
+<img src="Images/landing.png" alt="Landing page" width="700"/>
+- You will see an option to select the application
 
-- The very first step is required to fill your name in the space provided.
-
-<img src="Images/pg2.png" alt="Enter your Name" width="700"/>
-<img src="Images/pg3.png" alt="Click on Submit" width="700"/>
+<img src="Images/options.png" alt="Selecting Application" width="700"/>
 
 - User can select the mode of recommendation as Movie-based or Genre-based by clicking on the down arrow for 'Select Application'.
 
-<img src="Images/pg4.png" alt="Selecting Application" width="700"/>
+<img src="Images/both-options.png" alt="Selecting Application" width="700"/>
 
 #### Movie Based
     - If Movie-based application is selcted, then user needs to enter a movie similar to which the user will get the recommendations.
 
-<img src="Images/pg5.png" alt="Movie-based - Entering a Movie" width="700"/>
+<img src="Images/movie-based.png" alt="Movie-based - Entering a Movie" width="700"/>
 
     - There are tons of options of movies of the user to choose from by clicking on the down arrow.
 
-<img src="Images/pg6.png" alt="Movie Options" width="700"/>
+<img src="Images/movie-list.png" alt="Movie Options" width="700"/>
 
     - Then, for the selected movie, recommendations will be provided. The default number of recommendations is set at 5, but you may increase or decrease the number of recommendations as per your requirement.
 
-<img src="Images/pg7.png" alt="Recommendations for Movie-based" width="700"/>
+<img src="Images/avatar.png" alt="Recommendations for Movie-based" width="700"/>
 
     - The recommendations provided also enables you to check it's overview and it's trailer by clicking on the Movie you choose from the recommendations and you will be directed to its IMDB page. Here, I clicked on Avatar : 
 
-<img src="Images/imdb_mb.png" alt="IMDB page of the Recommended Movie" width="700"/>
+<img src="Images/imdb-avatar.png" alt="IMDB page of the Recommended Movie" width="700"/>
 
 #### Genre Based
 
       - If Genre-based application is selected, then the user needs to select either one or more genres from the options provided.
 
-<img src="Images/pg9.png" alt="Selecting Genres" width="700"/>
+<img src="Images/genre-based.png" alt="Selecting Genres" width="700"/>
       
       - Then you may adjust the IMDB score according to your requirement for the recommendations. Here as well, you may increase or decrease the number of recommendations you require.
 
-<img src="Images/pg10.png" alt="Adjusting IMDB Score" width="700"/>
+<img src="Images/action.png" alt="Adjusting IMDB Score" width="700"/>
 
-      - If you click on any recommended movie, you will be directed to its IMDB page. Here, I've clicked on Sleeper :
+      - You can also increase the number of recommendations :
 
-<img src="Images/imdb_gb.png" alt="IMDB page of the Recommended Movie" width="700"/>
+<img src="Images/increment.png" alt="IMDB page of the Recommended Movie" width="700"/>
     
 #### Additional Features
      
